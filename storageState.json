@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "__RequestVerificationToken",
+      "value": "rzYkBd9H1rfSmcUniBUjRBY9bd-V60BHP4YWcrBrn5ahZYAQyg_jv8bc_8n2IzGrQpsXjrl0BRejbAaLnhBxb_DOlLg1",
+      "domain": "insyncuat.insynchcs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "aGVycnkuYnJvb2syMw",
+      "value": "==Dashboard",
+      "domain": "insyncuat.insynchcs.com",
+      "path": "/",
+      "expires": 1791959464,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "owhcei0kgag0pirzxcpnh2vk",
+      "domain": "insyncuat.insynchcs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".ASPXAUTH",
+      "value": "758F4522866C122803F7DDB5DCCF30184F8085AA0974E9C9EF20BC9B23E47BFC78FABE3C791FD7C231F43B62AA4973E5FD9F526709EF5AC74036AA1F3F049794F09A8FE50491E25D2478347D50D4E0E9CB2EBB77AA66C7EAA2B621DD8EA94EAFF5BDD212A8D0B5218710C627268F182F206064C0",
+      "domain": "insyncuat.insynchcs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UniqueUserID",
+      "value": "200000501239_13810",
+      "domain": "insyncuat.insynchcs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "insyncuat.insynchcs.com",
+      "value": "6cfb8110-411b-f747-cc63-a0a42f5dc44c",
+      "domain": "insyncuat.insynchcs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://insyncuat.insynchcs.com",
+      "localStorage": [
+        {
+          "name": "_boomr_akamaiXhrRetry",
+          "value": "{\"items\":{},\"expires\":1760425267466}"
+        }
+      ]
+    }
+  ]
+}

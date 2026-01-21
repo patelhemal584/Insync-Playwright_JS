@@ -1,0 +1,31 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:uat": "cross-env ENV=uat playwright test",
+    "test:prod": "cross-env ENV=prod playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "allure-playwright": "^3.4.1",
+    "cross-env": "^7.0.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^6.0.1",
+    "chromedriver": "^140.0.2",
+    "dotenv": "^17.2.2",
+    "mocha": "^11.7.2",
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0",
+    "selenium-webdriver": "^4.35.0"
+  },
+  "description": ""
+}

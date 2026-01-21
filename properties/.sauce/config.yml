@@ -1,0 +1,11 @@
+apiVersion: v1alpha
+kind: playwright
+playwright:
+  version: 1.48.0   # jo version tu use kar raha hai
+suites:
+  - name: "Playwright Tests"
+    playwrightCfg: "./playwright.config.js"
+    params:
+      browserName: "chromium"
+sauce:
+  region: us-west-1

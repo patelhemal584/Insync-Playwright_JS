@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - link "InSync Healthcare Solutions" [ref=e5] [cursor=pointer]:
+      - /url: https://www.insynchcs.com/
+      - img "InSync Healthcare Solutions" [ref=e6] [cursor=pointer]
+    - form [ref=e7]:
+      - generic [ref=e8]:
+        - alert [ref=e9]:
+          - paragraph [ref=e10]:
+            - generic [ref=e11]: Invalid login details.
+        - generic [ref=e12]:
+          - textbox "Username" [ref=e13]: hemal.patel
+          - img "user" [ref=e15]
+        - generic [ref=e16]:
+          - textbox "Password" [active] [ref=e17]: admin
+          - img "user" [ref=e19]
+        - generic [ref=e21]:
+          - img "user" [ref=e23]
+          - generic [ref=e24]:
+            - combobox [ref=e25]:
+              - option "Dashboard" [selected]
+              - option "Document Manager"
+              - option "Claims"
+              - option "Patient Search"
+              - option "Payments"
+              - option "Scheduler"
+            - paragraph [ref=e26]:
+              - generic [ref=e27]: Dashboard
+        - generic [ref=e30]:
+          - link "Forgot Username?" [ref=e32] [cursor=pointer]:
+            - /url: /Account/ForgotUsername
+          - link "Forgot Password?" [ref=e34] [cursor=pointer]:
+            - /url: /Account/ForgotPassword
+        - button "SIGN IN" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]: SIGN IN
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - text: "Customer Support:"
+        - link "844-930-0532" [ref=e40] [cursor=pointer]:
+          - /url: "tel: +1844-930-0532"
+      - generic [ref=e41]: (For Authorized Case Submitters)
+      - generic [ref=e42]: 8:00 AM - 8:00 PM EST Monday - Friday
+  - contentinfo [ref=e43]:
+    - generic [ref=e44]: © 2025 QUALIFACTS SYSTEMS, LLC
+```
