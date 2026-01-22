@@ -11,13 +11,13 @@ class Login {
   }
 
   async NavigateToUAT(){
-    await this.page.goto(process.env.BASE_URL);
+    await this.page.goto(env.BASE_URL);
     await this.page.waitForLoadState('networkidle');
   }
 
   async Login(){
-    await this.OL.usernameLocator.fill(this.PL.username);
-    await this.OL.passwordLocator.fill(this.PL.password);
+    await this.OL.usernameLocator.fill(this.PL.app_username);
+    await this.OL.passwordLocator.fill(this.PL.app_password);
     await this.OL.signInLocator.click();
     await this.page.waitForTimeout(6000);
   }
@@ -26,13 +26,15 @@ class Login {
   await this.page.waitForLoadState('networkidle');
 
   await this.OL.selectFacilityLocator.waitFor({ state: 'visible', timeout: 15000 });
-  await this.OL.selectFacilityLocator.selectOption(process.env.FACILITY);
+  await this.OL.selectFacilityLocator.selectOption(env.FACILITY);//changed
 
   await this.OL.facilityOkLocator.waitFor({ state: 'visible', timeout: 5000 });
   await this.OL.facilityOkLocator.click();
 
   await this.page.waitForLoadState('networkidle');
 }
+
+
 
 }
 
