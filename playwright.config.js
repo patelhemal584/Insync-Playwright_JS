@@ -7,7 +7,7 @@ module.exports = defineConfig({
 
   reporter: [
     ['list'],              // normal console output
-    ['allure-playwright']  // allure results output
+    ['allure-playwright']  // awo;dllure results output
   ],
 
     testDir: './tests',
