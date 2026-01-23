@@ -71,7 +71,7 @@ test.describe.serial('Verify Dashboard Functionality', () => {
         });
     });
   })
-  //Test cases are skipped to reduce execution time...
+  //Test cases are skipped to reduce execution time....
   // test.describe('Verify Dashboard Shortcut : En.List',()=>{
     
   //   test('Verify En.List visibility on Dashboard based on Configuration ON/OFF', async () => {
